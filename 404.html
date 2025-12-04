@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Page Not Found</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /*======================
+        404 page
+    =======================*/
+    body { margin: 0; background: #fff; }
+    .page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif; }
+    .page_404  img{ width:100%;}
+    .four_zero_four_bg{
+      background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+      height: 400px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .four_zero_four_bg h1{ font-size:80px; }
+    .four_zero_four_bg h3{ font-size:80px; }
+    .link_404{ color:#fff!important; padding:10px 20px; background:#39ac31; margin:20px 0; display:inline-block; text-decoration:none; border-radius:6px; }
+    .contant_box_404{ margin-top:-50px; text-align:center; }
+
+    /* quick utility grid to roughly match the given snippet's structure */
+    .container{ max-width: 900px; margin: 0 auto; padding: 0 16px; }
+    .row{ display: flex; flex-wrap: wrap; }
+    .col-sm-12{ flex: 0 0 100%; max-width: 100%; }
+    .text-center{ text-align: center; }
+    .col-sm-10{ flex: 0 0 83.333333%; max-width: 83.333333%; margin: 0 auto; }
+    .col-sm-offset-1{ margin-left: 8.333333%; }
+
+    @media (max-width: 640px){
+      .four_zero_four_bg{ height: 280px; }
+      .four_zero_four_bg h1{ font-size: 56px; }
+      .contant_box_404{ margin-top: -30px; }
+    }
+  </style>
+</head>
+<body>
+  <section class="page_404">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 ">
+          <div class="col-sm-10 col-sm-offset-1  text-center">
+            <div class="four_zero_four_bg">
+              <h1 class="text-center ">404</h1>
+            </div>
+            <div class="contant_box_404">
+              <h3 class="h2">Look like you're lost</h3>
+              <p>The Page You are Looking For is Under Maintenance</p>
+              <a href="index.html" class="link_404">Go to Home</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
